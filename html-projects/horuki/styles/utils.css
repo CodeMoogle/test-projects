@@ -1,10 +1,11 @@
+/* flex */
 .flex {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 100%;
 }
-
+/* Grids */
 .grid {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -26,7 +27,7 @@
 	padding: 20px;
 	margin: 10px;
 }
-
+/* Buttons */
 .btn {
 	display: inline-block;
 	padding: 10px 30px;
@@ -47,8 +48,45 @@
 	border: 1px solid #fff;
 }
 
+/* Backgrounds and colored buttons */
+.bg-primary,
+.btn-primary {
+	background-color: var(--primary-color);
+	color: #fff;
+}
+.bg-secondary,
+.btn-secondary {
+	background-color: var(--secondary-color);
+	color: #fff;
+}
+.bg-dark,
+.btn-dark {
+	background-color: var(--dark-color);
+	color: #fff;
+}
+.bg-light,
+.btn-light {
+	background-color: var(--light-color);
+	color: #333;
+}
+/* Text */
 .text-center {
 	text-align: center;
+}
+.lead {
+	font-size: 20px;
+}
+.text-sm {
+	font-size: 1rem;
+}
+.text-md {
+	font-size: 2rem;
+}
+.text-lg {
+	font-size: 3rem;
+}
+.text-xl {
+	font-size: 4rem;
 }
 /* Margins */
 .my-1 {
