@@ -171,3 +171,29 @@ img {
 .cloud .grid {
 	grid-template-columns: 4fr 3fr;
 }
+
+/* Laguages section */
+.languages .flex {
+	flex-wrap: wrap;
+}
+.languages .card {
+	text-align: center;
+	margin: 18px 10px 40px;
+	transition: transform 0.2s ease-in-out;
+}
+.languages .card h4 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.languages .card:hover {
+	transform: translateY(-15px);
+}
+
+/* Footer section */
+.footer .social a {
+	margin: 0 10px;
+	transition: color 0.2s ease-in-out;
+}
+.footer a:hover {
+	color: #c3c3c3;
+}
