@@ -197,3 +197,49 @@ img {
 .footer a:hover {
 	color: #c3c3c3;
 }
+
+/* Media Queries */
+/* Tablets */
+@media (max-width: 768px) {
+	.grid,
+	.showcase .grid,
+	.stats .grid,
+	.cli .grid,
+	.cloud .grid {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+	}
+
+	.showcase {
+		height: auto;
+	}
+
+	.showcase-text {
+		text-align: center;
+		margin-top: 40px;
+	}
+
+	.showcase-form {
+		justify-self: center;
+		margin: auto;
+	}
+
+	.cli .grid > *:first-child {
+		grid-column: 1;
+		grid-row: 1;
+	}
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+	.header {
+		height: 100px;
+	}
+	.header .flex {
+		flex-direction: column;
+	}
+	.header ul {
+		padding: 10px;
+		background-color: rgba(0, 0, 0, 0.1);
+	}
+}
