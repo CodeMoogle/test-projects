@@ -78,12 +78,19 @@
 .btn-dark a {
 	color: #fff;
 }
-
-.bg-light a,
-.btn-light a {
-	color: #333;
-}
 /* Text */
+.text-primary {
+	color: var(--primary-color);
+}
+.text-secondary {
+	color: var(--secondary-color);
+}
+.text-dark {
+	color: var(--dark-color);
+}
+.text-light {
+	color: var(--light-color);
+}
 .text-center {
 	text-align: center;
 }
@@ -101,6 +108,27 @@
 }
 .text-xl {
 	font-size: 4rem;
+}
+/* Alerts */
+.alert {
+	background-color: var(--light-color);
+	padding: 10px 20px;
+	font-weight: bold;
+	margin: 15px 0;
+}
+
+.alert i {
+	margin-right: 15px;
+}
+
+.alert-success {
+	background-color: var(--success-color);
+	color: #fff;
+}
+
+.alert-danger {
+	background-color: var(--danger-color);
+	color: #fff;
 }
 /* Margins */
 .my-1 {
